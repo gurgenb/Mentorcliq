@@ -14,10 +14,10 @@ public class BridgePatternTester {
         MusicSource usb = new USB(new NewPlayer());
         usb.startPlaying(0);
 
-        tape.playByAuthor("Gugo");
+        tape.playByAuthor("Madonna");
 
-        usb.startPlaying(-5);
-        usb.playByAuthor("Gugo");
+        usb.startPlaying(5);
+        usb.playByAuthor("Madonna");
 
     }
 }
